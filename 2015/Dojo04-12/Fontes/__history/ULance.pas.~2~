@@ -1,0 +1,12 @@
+unit ULance;
+
+interface
+
+  type
+     TLance = class
+
+     end;
+
+implementation
+
+end.

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2015/11/27 17:13:48.232,=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Test\TestUMain.pas</Transaction>
+    <Transaction>2015/11/27 17:13:48.529,=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\UMain.pas</Transaction>
+    <Transaction>2015/11/27 17:47:26.804,=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Test\TestDatapar.pas</Transaction>
+    <Transaction>2015/11/27 17:47:26.872,=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Datapar.IVA.pas</Transaction>
+    <Transaction>2015/11/27 17:48:39.746,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Test\TestDataparIVA.pas=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Test\TestDatapar.pas</Transaction>
+    <Transaction>2015/11/27 17:50:10.802,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Test\TestUMain.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

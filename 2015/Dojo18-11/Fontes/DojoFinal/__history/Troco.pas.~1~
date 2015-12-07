@@ -1,0 +1,16 @@
+unit Troco;
+
+interface
+
+Uses
+  System.SysUtils;
+
+type
+  TRetorno = class
+    public
+    // implementar os metodos
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,29 @@
+unit App;
+
+interface
+
+uses
+  System.SysUtils;
+
+  type
+  TTroco = class
+  private
+    FVlrConta,
+    FVlrPago: double;
+    // implementar metodos
+  public
+    property VlrConta: double read FVlrConta write FVlrConta;
+    property VlrPago: double read FVlrPago write FVlrPago;
+    function VerificaValorPgtoMaior: boolean;
+  end;
+
+implementation
+
+{ TTroco }
+
+function TTroco.VerificaValorPgtoMaior: boolean;
+begin
+  Result := FVlrConta > FVlrPago;
+end;
+
+end.

@@ -1,0 +1,16 @@
+unit Troco;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TTroco = class
+  public
+    // aqui vamos implementar os métodos
+  end;
+
+implementation
+
+end.

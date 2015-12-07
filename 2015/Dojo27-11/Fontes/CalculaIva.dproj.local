@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/11/27 17:10:12.000.459,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/11/27 17:10:20.034,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/11/27 17:10:36.449,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\UMain.pas=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/11/27 17:10:36.449,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\UMain.dfm=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2015/11/27 17:10:42.292,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\CalculaIva.dproj=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2015/11/27 17:11:59.314,=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Unit1.pas</Transaction>
+    <Transaction>2015/11/27 17:12:21.610,C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Datapar.IVA.pas=C:\Users\Desenvolvimento\Desktop\Dojo 27-11\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

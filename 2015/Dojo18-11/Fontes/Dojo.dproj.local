@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/20 15:47:25.000.654,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/11/18 14:43:42.000.446,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/11/18 14:44:26.000.618,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/11/18 14:45:05.000.914,C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Desenvolvimento\Desktop\Dojo18-11\App.pas</Transaction>
+    <Transaction>2015/11/18 14:45:44.000.460,C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Desenvolvimento\Desktop\Dojo18-11\Unit1.dfm</Transaction>
+    <Transaction>2015/11/18 14:45:44.000.460,C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Desenvolvimento\Desktop\Dojo18-11\Unit1.pas</Transaction>
+    <Transaction>2015/11/18 14:45:50.000.530,C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Desenvolvimento\Desktop\Dojo18-11\Dojo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

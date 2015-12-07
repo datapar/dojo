@@ -1,0 +1,44 @@
+unit UAvaliador;
+
+interface
+
+uses Generics.Collections, ULeilao, ULance;
+
+type
+  TAvaliador = class
+  private
+    FMaiorValorLance: double;
+    function getMaiorValorLance: double;
+    procedure setMaiorValorLance(const Value: double);
+  public
+    procedure AvaliaLance(aLeilao: TLeilao);
+    property MaiorValorLance: double read getMaiorValorLance
+      write setMaiorValorLance;
+
+  end;
+
+implementation
+
+{ TAvaliador }
+
+procedure TAvaliador.AvaliaLance(aLeilao: TLeilao);
+var
+  I: Integer;
+begin
+  setMaiorValorLance(0);
+  for I := 0 to Pred(aLeilao.getListaLance.Count) do
+      if aListaLance.Items[i].ValorLance > getMaiorValorLance then
+        setMaiorValorLance(aListaLance.Items[i].ValorLance);
+end;
+
+function TAvaliador.getMaiorValorLance: double;
+begin
+  result := FMaiorValorLance;
+end;
+
+procedure TAvaliador.setMaiorValorLance(const Value: double);
+begin
+  FMaiorValorLance := Value;
+end;
+
+end.

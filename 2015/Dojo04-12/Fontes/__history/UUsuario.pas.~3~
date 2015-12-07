@@ -1,0 +1,12 @@
+unit UUsuario;
+
+interface
+
+type
+  TUsuario = class
+
+  end;
+
+implementation
+
+end.

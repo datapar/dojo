@@ -1,0 +1,23 @@
+program prjLeilao_Testes;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses
+  System.SysUtils,
+  UUsuario in 'UUsuario.pas',
+  ULance in 'ULance.pas',
+  ULeilao in 'ULeilao.pas',
+  UAvaliador in 'UAvaliador.pas',
+  UTesteAvaliador in 'UTesteAvaliador.pas';
+
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+
+end.

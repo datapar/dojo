@@ -1,0 +1,31 @@
+unit UUsuario;
+
+interface
+
+type
+  TUsuario = class
+  private
+    FID: integer;
+    procedure getId(const Value: integer);
+    function setId: integer;
+
+  public
+    property ID: integer read  getId write setId;
+
+  end;
+
+implementation
+
+{ TUsuario }
+
+procedure TUsuario.getId(const Value: integer);
+begin
+  FID := Value;
+end;
+
+function TUsuario.setId: integer;
+begin
+
+end;
+
+end.

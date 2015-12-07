@@ -1,0 +1,16 @@
+unit QuestionsInterview;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TSampleInterview = class
+  public
+    // aqui vamos implementar os métodos estáticos
+  end;
+
+implementation
+
+end.

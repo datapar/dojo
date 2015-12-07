@@ -1,0 +1,25 @@
+unit App;
+
+interface
+
+uses
+  System.SysUtils;
+
+  type
+  TTroco = class
+    // implementar metodos
+  public
+    function VerificaValorPgtoMaior(AValorCompra, AValorPago: Double): boolean;
+  end;
+
+implementation
+
+{ TTroco }
+
+function TTroco.VerificaValorPgtoMaior(AValorCompra, AValorPago: Double): boolean;
+begin
+   Result := AValorCompra > AValorPago;
+
+end;
+
+end.

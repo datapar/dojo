@@ -1,0 +1,26 @@
+unit Troco;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TCalculadora = class
+  public
+   function soma( a:double ; b:double ):double;
+
+  end;
+
+implementation
+
+{ TCalculadora }
+
+function TCalculadora.soma( a:double ; b:double ): double;
+begin
+
+result := a + b;
+
+end;
+
+end.

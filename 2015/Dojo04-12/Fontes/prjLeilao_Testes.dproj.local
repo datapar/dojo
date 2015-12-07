@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/11/27 17:10:12.000.459,=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/12/04 15:34:26.765,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\prjLeilao_Testes.dproj=C:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2015/12/04 15:34:36.227,=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:34:57.729,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\UUsuario.pas=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:35:24.206,=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:35:33.521,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\ULance.pas=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:36:10.793,=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:36:22.446,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\ULeilao.pas=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:36:50.384,=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:36:59.229,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\UAvaliador.pas=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:45:32.088,=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+    <Transaction>2015/12/04 15:47:32.791,C:\Users\Desenvolvimento\Desktop\Leilao_Testes\UTesteAvaliador.pas=C:\Users\Desenvolvimento\Desktop\Leilao_Testes\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

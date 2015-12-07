@@ -1,0 +1,46 @@
+unit ULance;
+
+interface
+
+uses UUsuario;
+
+type
+  TLance = class
+  private
+    FUsuario: TUsuario;
+    FValorLance: double;
+    function getUsuario: TUsuario;
+    procedure setUsuario(const Value: TUsuario);
+    function getValorLance: double;
+    procedure setValorLance(const Value: double);
+
+  public
+    property Usuario: TUsuario read getUsuario write setUsuario;
+    property ValorLance: double read getValorLance write setValorLance;
+  end;
+
+implementation
+
+{ TLance }
+
+function TLance.getUsuario: TUsuario;
+begin
+  result := FUsuario;
+end;
+
+function TLance.getValorLance: double;
+begin
+  result := FValorLance;
+end;
+
+procedure TLance.setUsuario(const Value: TUsuario);
+begin
+  FUsuario := Value;
+end;
+
+procedure TLance.setValorLance(const Value: double);
+begin
+  FValorLance := Value;
+end;
+
+end.

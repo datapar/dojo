@@ -1,0 +1,33 @@
+unit ULance;
+
+interface
+
+uses UUsuario;
+
+type
+  TLance = class
+  private
+    FUsuario: TUsuario;
+    function getUsuario: TUsuario;
+    procedure setUsuario(const Value: TUsuario);
+
+    public
+      property Usuario : TUsuario read getUsuario write setUsuario;
+
+  end;
+
+implementation
+
+{ TLance }
+
+function TLance.getUsuario: TUsuario;
+begin
+  result := FUsuario;
+end;
+
+procedure TLance.setUsuario(const Value: TUsuario);
+begin
+  FUsuario := Value;
+end;
+
+end.

@@ -1,0 +1,45 @@
+unit UUsuario;
+
+interface
+
+type
+  TUsuario = class
+  private
+    FID: integer;
+    FNome: string;
+    procedure getId(const Value: integer);
+    function setId: integer;
+    function getNome: string;
+    procedure setNome(const Value: string);
+
+  public
+    property ID: integer read getId write setId;
+    property nome: string read getNome write setNome;
+
+  end;
+
+implementation
+
+{ TUsuario }
+
+procedure TUsuario.setId(const Value: integer);
+begin
+  FID := Value;
+end;
+
+function TUsuario.getNome: string;
+begin
+  Result := FNome;
+end;
+
+function TUsuario.getId: integer;
+begin
+  Result := FID;
+end;
+
+procedure TUsuario.setNome(const Value: string);
+begin
+  FNome := Value;
+end;
+
+end.

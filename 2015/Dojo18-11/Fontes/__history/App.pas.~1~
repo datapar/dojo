@@ -1,0 +1,15 @@
+unit App;
+
+interface
+
+uses
+  System.SysUtils;
+
+  type
+  TTroco = class
+    // implementar metodos
+  end;
+
+implementation
+
+end.

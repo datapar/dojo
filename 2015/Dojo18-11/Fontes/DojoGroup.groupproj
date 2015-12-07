@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C703D5E7-B726-4D7F-981E-A61423497B9A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Dojo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DojoTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Dojo">
+        <MSBuild Projects="Dojo.dproj"/>
+    </Target>
+    <Target Name="Dojo:Clean">
+        <MSBuild Projects="Dojo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Dojo:Make">
+        <MSBuild Projects="Dojo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DojoTests">
+        <MSBuild Projects="DojoTests.dproj"/>
+    </Target>
+    <Target Name="DojoTests:Clean">
+        <MSBuild Projects="DojoTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DojoTests:Make">
+        <MSBuild Projects="DojoTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Dojo;DojoTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Dojo:Clean;DojoTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Dojo:Make;DojoTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

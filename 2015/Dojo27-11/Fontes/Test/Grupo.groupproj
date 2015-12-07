@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5070CF92-43DB-49B5-8456-2587B85411F6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\CalculaIva.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CalculaIvaTestes.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CalculaIva">
+        <MSBuild Projects="..\CalculaIva.dproj"/>
+    </Target>
+    <Target Name="CalculaIva:Clean">
+        <MSBuild Projects="..\CalculaIva.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculaIva:Make">
+        <MSBuild Projects="..\CalculaIva.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CalculaIvaTestes">
+        <MSBuild Projects="CalculaIvaTestes.dproj"/>
+    </Target>
+    <Target Name="CalculaIvaTestes:Clean">
+        <MSBuild Projects="CalculaIvaTestes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculaIvaTestes:Make">
+        <MSBuild Projects="CalculaIvaTestes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CalculaIva;CalculaIvaTestes"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CalculaIva:Clean;CalculaIvaTestes:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CalculaIva:Make;CalculaIvaTestes:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
